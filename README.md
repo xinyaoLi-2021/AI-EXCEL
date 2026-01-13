@@ -1,9 +1,13 @@
 # AI CSV: ReAct-based AI agent for Excel/CSV with SQL queries & auto code generation
 
 This is an intelligent agent designed for CSV data analysis.
+
 For simple information queries:
+
 Enter your question in the 'Query' field below and click the 'Execute Query' button. The corresponding code will be generated in the 'Action Code/Command' section. Click 'Execute Action/Command' to run the code and view results in the output area. Repeat this process step by step until your question is fully resolved.
+
 For complex analytical tasks:
+
 Type your complex question and click 'Query Pipeline'. The system will decompose your task into manageable steps. Click 'Execute' to process each step - the corresponding code will appear in the right panel. Click 'Execute Action/Command' to generate new CSV files. Iterate through each step, generating intermediate CSV files as needed, until your complete analytical task is solved.
 Core capability: The agent searches for optimal solutions online and transforms them into executable local scripts for your data analysis needs. 
 
